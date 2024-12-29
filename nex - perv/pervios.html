@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      section {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+      .kj {
+        width: 400px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: aqua;
+        height: 400px;
+        border-radius: 20px;
+      }
+      img {
+        z-index: 2000;
+        width: 70%;
+        height: 130px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .kj > .hh {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border: 1px solid red;
+        border-radius: 10px;
+        margin-top: 20px;
+      }
+      .allbot {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+      button {
+        width: 100px;
+        height: 20px;
+        filter: blur(1px);
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="kj">
+        <img src="./images.png" alt="j" />
+        <div class="hh">
+          <h2>efhiefheif</h2>
+          <p>info</p>
+        </div>
+        <div class="allbot">
+          <button class="first">previous</button>
+          <button class="second">next</button>
+        </div>
+      </div>
+    </section>
+    <script src="./pervios.js"></script>
+  </body>
+</html>

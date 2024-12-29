@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .btn {
+        color: white;
+        background-color: black;
+        border: 2px solid greenyellow;
+        width: 10%;
+        transition: transform 1s ease;
+      }
+      .btn:hover {
+        transform: scale(1, 2);
+      }
+      div {
+        margin-top: 200px;
+        text-align: center;
+        background-color: #ffffff;
+        box-shadow: 1px 2px 1px 1px;
+      }
+      .content {
+        position: relative;
+        padding: 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h2 class="value">0</h2>
+
+      <div class="content">
+        <button class="btn increase">increase</button>
+        <button class="btn reset">reset</button>
+        <button class="btn decrase">decrease</button>
+      </div>
+    </div>
+    <script src="./counter.js"></script>
+  </body>
+</html>
